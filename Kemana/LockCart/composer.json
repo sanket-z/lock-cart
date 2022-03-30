@@ -1,0 +1,22 @@
+{
+    "name": "kemana/module-lockcart",
+    "description": "Kemana lockcart ",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Kemana",
+            "email": "info@kemana.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Kemana\\LockCart\\": ""
+        }
+    }
+}
